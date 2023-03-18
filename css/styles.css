@@ -3,10 +3,13 @@
   --second-title-color: #2e2f42;
   --main-btn-color: #ffffff;
   --text-color: #434455;
-  --accent-color: ;
+  --accent-color: #4d5ae5;
+  --span-header-color: #2E2F42;
+  --span-footer-color: #F4F4FD;
 }
 
-body {
+
+.body {
   font-family: "roboto", sans serif;
   color: #434455;
 }
@@ -19,7 +22,9 @@ body {
   text-decoration: none;
 }
 
-
+.header-contakts {
+  font-style: normal;
+}
 
 /*--------------------Header-----------------*/
 
@@ -37,7 +42,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--accent-color);
 }
 
 .span-logo {
@@ -47,7 +52,7 @@ body {
   font-size: 18px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  color: var(--span-header-color);
 }
 
 .header-list {
@@ -120,7 +125,7 @@ color: #404bbf;
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--main-btn-color);
-  background-color: #4d5ae5;
+  background-color: var(--accent-color);
 }
 .btn-title:hover,
 .btn-title:focus {
@@ -189,6 +194,7 @@ color: #404bbf;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--second-title-color);
+  
 }
 
 .team-text {
@@ -205,23 +211,23 @@ color: #404bbf;
 }
 
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway" sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--accent-color);
 }
 
 .span-logo {
-  font-family: "Raleway";
+  font-family: "Raleway" sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--span-footer-color);
 }
 .footer-text {
   font-size: 16px;
@@ -237,13 +243,14 @@ color: #404bbf;
 .service-list {
 }
 .service-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--accent-color);
   background-color: #f4f4fd;
 }
 .service-btn:hover,

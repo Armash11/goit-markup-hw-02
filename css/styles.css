@@ -12,6 +12,7 @@
 .body {
   font-family: "roboto", sans serif;
   color: #434455;
+  background-color: #ffffff;
 }
 
 .list {
@@ -112,7 +113,7 @@ color: #404bbf;
   font-size: 56px;
   line-height: 60px;
   text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: 1.07em;
   color: var(--main-title-color);
 }
 
@@ -173,7 +174,7 @@ color: #404bbf;
 /*------------------Section3--------------------*/
 
 .team {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 
 .team-title {

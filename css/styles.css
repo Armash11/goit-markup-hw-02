@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: "Roboto", sans serif;
+  font-family: "Roboto", Arial, sans-serif;
 }
 body {
   color: var(--text-color);
@@ -234,7 +234,7 @@ body {
 
 /*----------Portfolio-------------*/
 body {
-  font-family: "Roboto", sans serif;
+  font-family: "Roboto", sans-serif;
 }
 body {
   color: var(--text-color);

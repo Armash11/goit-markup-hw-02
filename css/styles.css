@@ -88,13 +88,8 @@ body {
   color: #434455;
 }
 
-.header-mail:hover,
-.header-mail:focus {
-  color: #404bbf;
-}
-
-.header-phone:hover,
-.header-phone:focus {
+.header-adress:hover,
+.header-adress:focus {
   color: #404bbf;
 }
 
